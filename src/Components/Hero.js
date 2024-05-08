@@ -72,12 +72,12 @@ function Hero() {
         </div>
 
         <div className="hero-image-section">
-          {/* <img className="hero-image1" src={Doctor} alt="Doctor" /> */}
-          <video className="hero-image1" autoPlay loop muted>
+          <video className="hero-video" autoPlay loop muted>
             <source src={Video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
+
       </div>
 
       <div

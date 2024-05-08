@@ -48,11 +48,11 @@ function Navbar() {
             Services
           </a>
         </li>
-        <li>
+        {/* <li>
           <a href="#about" className="navbar-links">
             About
           </a>
-        </li>
+        </li> */}
         <li>
           <a href="#reviews" className="navbar-links">
             Reviews
