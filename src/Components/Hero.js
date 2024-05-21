@@ -54,20 +54,20 @@ function Hero() {
             Register
           </button>
           <div className="text-stats">
-            <div className="text-stats-container">
+            {/* <div className="text-stats-container">
               <p>4+</p>
               <p>Years</p>
-            </div>
+            </div> */}
 
             {/* <div className="text-stats-container">
               <p>20+</p>
               <p>Awards</p>
             </div> */}
 
-            <div className="text-stats-container">
+            {/* <div className="text-stats-container">
               <p>200+</p>
               <p>Clients</p>
-            </div>
+            </div> */}
           </div>
         </div>
 
