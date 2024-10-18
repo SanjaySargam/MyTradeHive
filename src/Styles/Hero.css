@@ -21,8 +21,8 @@ transform: translate(-50%, -50%);
     
 /* Text section */
 .text-section {
-    width: 60%;
-    padding: 0 32px;
+    /* width: 60%; */
+    padding: 50px 39px;
 }
 .text-headline {
     margin-bottom: 12px;
@@ -38,6 +38,7 @@ transform: translate(-50%, -50%);
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: bold;
+    padding-bottom: 30px;
 }
 .text-descritpion {
     width: 475px;
