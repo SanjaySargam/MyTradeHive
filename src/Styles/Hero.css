@@ -1,19 +1,32 @@
 .hero-section {
-    padding: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    background: linear-gradient(to right, #ECF2FF, #FBFCFF);
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    border-bottom: 1px solid #293241;
+  }
+  
+.hero-video {
+position: absolute;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -1000;
+transform: translate(-50%, -50%);   
 }
+  
+    
 /* Text section */
 .text-section {
-    width: 60%;
-    padding: 0 32px;
+    /* width: 60%; */
+    padding: 50px 39px;
 }
 .text-headline {
     margin-bottom: 12px;
-    color: rgb(77, 75, 75);
+    color: white;
     font-family: 'Rubik', sans-serif;
     font-size: 22px;
     font-weight: bold;
@@ -21,15 +34,16 @@
 }
 .text-title {
     width: 500px;
-    color: black;
+    color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: bold;
+    padding-bottom: 30px;
 }
 .text-descritpion {
     width: 475px;
     margin: 32px 0;
-    color: rgb(77, 75, 75);
+    color: white;
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     letter-spacing: .7px;
@@ -41,7 +55,7 @@
     border: 1px solid transparent;
     border-radius: 28px;
     outline: transparent;
-    background-color: #1A8EFD;
+    background-color: #008000;
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
     letter-spacing: .8px;
@@ -49,9 +63,9 @@
     transition: all .4s ease;
 }
 .text-appointment-btn:hover {
-    color: #1A8EFD;
-    background-color: transparent;
-    border: 1px solid #1A8EFD;
+    color: #008000;
+    background-color: white;
+    border: 1px solid #008000;
 }
 .text-stats {
     margin-top: 40px;
@@ -64,14 +78,14 @@
     text-align: center;
 }
 .text-stats-container > p {
-    color: rgb(77, 75, 75);
+    color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
     letter-spacing: .7px;
 }
 .text-stats-container p:first-child {
     margin-bottom: 8px;
-    color: #1A8EFD;
+    color: #008000;
     font-family: 'Rubik', sans-serif;
     font-size: 32px;
     font-weight: bold;
@@ -95,10 +109,10 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    color: white;
-    border: 3px solid white;
+    color: black;
+    border: 3px solid black;
     border-radius: 50%;
-    background-color: #1A8EFD;
+    background-color: #008000;
     position: fixed;
     bottom: 50px;
     right: 50px;

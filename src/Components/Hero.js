@@ -54,30 +54,30 @@ function Hero() {
             Register
           </button>
           <div className="text-stats">
-            <div className="text-stats-container">
+            {/* <div className="text-stats-container">
               <p>4+</p>
               <p>Years</p>
-            </div>
+            </div> */}
 
             {/* <div className="text-stats-container">
               <p>20+</p>
               <p>Awards</p>
             </div> */}
 
-            <div className="text-stats-container">
+            {/* <div className="text-stats-container">
               <p>200+</p>
               <p>Clients</p>
-            </div>
+            </div> */}
           </div>
         </div>
 
         <div className="hero-image-section">
-          {/* <img className="hero-image1" src={Doctor} alt="Doctor" /> */}
-          <video className="hero-image1" autoPlay loop muted>
+          <video className="hero-video" autoPlay loop muted>
             <source src={Video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
+
       </div>
 
       <div
